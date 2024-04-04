@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Météo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Météo</h1>
+    <form id="weatherForm">
+      <label for="postalCode">Code Postal :</label>
+      <input type="text" id="postalCode" name="postalCode" required>
+      <label for="commune">Commune :</label>
+      <select id="commune" name="commune" required>
+        <option value="" disabled selected>Choisissez une commune</option>
+        <!-- Exemple d'options pour les communes -->
+        <option value="Paris">Paris</option>
+        <option value="Lyon">Lyon</option>
+        <option value="Marseille">Marseille</option>
+      </select>
+      <button type="submit">Obtenir la météo</button>
+    </form>
+    <div id="weatherInfo">
+      <!-- Les informations météorologiques seront affichées ici -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
