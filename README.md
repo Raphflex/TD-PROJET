@@ -1,4 +1,4 @@
-# :tada: Projet **"Pupuce Weather"** Meteo instanté :construction:
+# :tada: Projet **"Pupuce Weather"** Meteo instantanée :construction:
 Par Raphael **"Zaphyx"** Dolley, Mathis **"Patatuuuu"** Galli, Raphael **"Raphflex"** Chappe
 
 ## Utilisation attendu : <br>
